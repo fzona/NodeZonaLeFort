@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Desafío Router</title>
+</head>
+<body style="background-color: black">
+    <div class="qfc-container" style="background-color: grey; padding: 20px; color: aliceblue; font-weight: bold; border: 4px solid wheat;">
+        <h2 style="text-align: center">Ingresar producto</h2>
+        <form action="/api/productos" method="post" style="text-align: center">
+        <label>Nombre: </label><input placeholder="Nombre  del producto" type="text" name="name"><br><br>
+        <label>Precio: </label><input placeholder="Precio  del producto" type="text" name="price"><br><br>
+        <label>Imagen: </label><input placeholder="URL de la imagen" type="text" name="thumbnail"><br><br>
+        <input type="submit" value="Agregar" style="background-color:black; font-size: large; color:aliceblue; border-radius: 10px; padding: 10px;" />
+        </form>
+    </div>
+</body>
+</html>
