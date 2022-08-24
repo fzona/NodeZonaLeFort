@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat App</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body style="text-align:center; background-color:#7FB285;">
+        <h1 style="text-align:center; color:white;">My Chat App</h1>
+        <div style="background-color:#27bdd1; padding: 50px; border-radius: 10px;" id="messages"></div>
+        <form style="padding:10px;" onsubmit="return addMessage(this)">
+            <input style="padding:10px; background-color: #43d5e9; border-radius: 10px;" type="text" id="username" placeholder="Tu nombre">
+            <input style="padding:10px; background-color: #43d5e9; border-radius: 10px;" type="text" id="texto" placeholder="Decí algo...">
+            <input style="padding:10px; background-color: #43d5e9; border-radius: 10px; color:white; font-weight: bold; font-size: medium;" type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
