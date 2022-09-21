@@ -1,0 +1,21 @@
+{
+  "name": "backend-ecommerce-trabajo-final",
+  "version": "1.0.0",
+  "description": "Trabajo final del curso de Backend de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/Server/server.js",
+    "start": "node ./src/Server/server.js"
+  },
+  "author": "martin.iglesias19@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.1",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19"
+  },
+  "type": "module"
+}
