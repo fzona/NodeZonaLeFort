@@ -27,8 +27,6 @@ You can start the server with:
 You can see the main page on http://localhost:8080/
 
 ## 🚀 About Me
-I'm a full stack developer, with an aim on Solidity and web3 development.
-
 I am interested in continuing to learn and work with:
 
 ➡ Solidity
@@ -40,9 +38,6 @@ I am interested in continuing to learn and work with:
 ➡ React.js
 
 ➡ MongoDB
-
-I’m interested in learning and working on improving people’s lives through blockchain technology. I’m constantly learning new things, and have a special affinity for new languages (both IT-related and spoken!).
-I currently live in San Carlos de Bariloche, Argentina.
 
 
 ## 🛠 Skills used on this project
