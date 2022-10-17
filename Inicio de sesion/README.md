@@ -17,6 +17,8 @@ Install [XAMPP](https://www.apachefriends.org/)
 
 In [PHPMyAdmin](http://localhost/phpmyadmin/) create the database 'ecommerce'
 
+Create an .env file with the variable MONGO_URL="Ruta de Mongo Atlas"
+
 Execute
 
 `node ./dataBase/create_products_table.js`
@@ -38,6 +40,8 @@ I am interested in continuing to learn and work with:
 ➡ React.js
 
 ➡ MongoDB
+
+I’m interested in learning and working on improving people’s lives through blockchain technology. I’m constantly learning new things, and have a special affinity for new languages (both IT-related and spoken!).
 
 ## 🛠 Skills used on this project
 
