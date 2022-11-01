@@ -1,0 +1,4 @@
+2022/10/11 10:44:09 [error] 1336#10780: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/11 10:44:09 [error] 1336#10780: *1 CreateFile() "./NodeServer/public/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/11 10:48:19 [error] 1336#10780: *1 CreateFile() "./NodeServer/public/8082" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: nginx_node, request: "GET /8082 HTTP/1.1", host: "localhost"
+2022/10/11 11:03:03 [error] 1336#10780: *52 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
