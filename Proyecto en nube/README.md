@@ -1,33 +1,51 @@
-# BARONI Eneas - Curso CODERHOUSE Backend
+# ✨ Express.js Server
 
-Desafio 17
+This project is a server made with Express.js. In "src\Routes\routes.js" there is a variable called "admin" that enables the functionality to add, update or delete products.
 
-eCommerce Backend
+In the .env file (that is not usually uploaded) you can choose the method of persistance of data. The options are:
 
-## Instalación
+- "PERS=json": use a .json file to storage data.
+- "PERS=firebase": use a Firebase DB to storage data.
+- "PERS=mongodb": use a local MongoDb to storage data.
+- "PERS=memoria": storage data in an array.
 
-1. Forkeá y cloná el repositorio
+You can test it's functionality with [Postman](https://www.postman.com/)
 
-2. Parado en la raíz del proyecto corré el comando 
+## 🔧 Characteristics and commands
 
-   ```
-   npm install
-   ```
-    para instalar todas las dependecias del proyecto
+### 👨🏻‍💻 Characteristics
 
-3. Ejecutar nginx.exe alojado en la carpeta raiz. 
+1.  The base router '/api/products' will implement four functionalities:
 
-4. Usá 
+- GET: '/:id?' - Allows you to list all available products or a product by its id (available for users and administrators)
+- POST: '/' - To add products to the list (available for administrators)
+- PUT: '/:id' - Update a product by its id (available for admins)
+- DELETE: '/:id' - Delete a product by its id (available for administrators)
 
-   ```
-   node app.js xxxx
-   ```
+2.  The base router '/api/cart' will implement three routes available for users and administrators:
 
-    para correr el proyecto, xxxx es el numero de puerto a utilizar. El proyecto estará disponible en http://localhost:xxxx 
+- POST: '/' - Create a cart and return its id.
+- DELETE: '/:id' - Empty a cart and delete it.
+- GET: '/:id/products' - Allows me to list all the products saved in the cart
+- POST: '/:id/products' - To add products to the cart by their product id
+- DELETE: '/:id/products/:id_prod' - Remove a product from the cart by its cart and product id
 
+### 💻 Install & run
 
-### Autor
+To run the project install all the dependencies using the following command:
 
-Eneas Baroni
+`npm i`
 
-2022 - Curso de Backend en CoderHouse
+You can start the server with:
+
+`npm run dev`
+
+You can see the main page on http://localhost:8080/ or you can use the ".env" file and inside declare a variable called "PORT" in which you can specify the port of your choice.
+
+## 🛠 Skills used on this project
+
+- Express.js
+- Node.js
+- Firebase
+- MongoDB
+- Mongoose
