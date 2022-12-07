@@ -1,0 +1,24 @@
+[
+  {
+    "username": "Eneas",
+    "email": "eneasbaroni@gmail.com",
+    "edad": "33",
+    "telefono": "+5493512110623",
+    "direccion": "Cordoba",
+    "password": "$2b$08$4rM2GJK1k4vv9P8ikdPVIOnfEDQm7J4flkFhHdgND2cnqwjVHaEwa",
+    "image": "1668536830711-Eneas.jpg",
+    "_id": 1,
+    "timestamp": 1668536830738
+  },
+  {
+    "username": "Maria",
+    "email": "maria@gmail.com",
+    "edad": "25",
+    "telefono": "+549351226633",
+    "direccion": "9 de Julio 125",
+    "password": "$2b$08$Zg/OdNXZjx8hwq51TDfYw.AbW90EvKEwjHO2L5yo54dgz8ZUpqO1i",
+    "image": "1668619037599-maria.png",
+    "_id": 2,
+    "timestamp": 1668619037638
+  }
+]
